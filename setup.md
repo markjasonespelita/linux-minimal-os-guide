@@ -27,7 +27,7 @@ make tinyconfig
 [*] 64-bit kernel
 general setup - [*] initial ram filesystem
 general setup - initial ram filesystem - [*] support gzip
-general setup - configure standard kernel features
+general setup - [*] configure standard kernel features
 general setup - configure standard kernel features - [*] Enable support for printk
 device drivers - character devices - [*] enable tty
 executable file formats - [*] kernel support for ELF binaries
