@@ -20,6 +20,9 @@ git clone https://github.com/torvalds/linux.git
 ```bash
 cd linux
 make tinyconfig
+
+// kernel configuration
+make menuconfig
 ```
 
 4. configure the kernel
