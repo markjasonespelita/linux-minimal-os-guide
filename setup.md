@@ -2,7 +2,7 @@ Setup Minimal Linux Operating System Distribution
 
 Created by: Mark Jason Espelita
 
-NOTE: this is my personal notes based from multiple sources I studied - Youtube, github /torvalds/linux.git, and other sources. :)
+NOTE: this is my personal notes based on multiple sources I studied, enjoy :)
 
 1. install the needed libraries
 ```bash
