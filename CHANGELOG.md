@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.0.2...v1.0.3) (2026-04-30)
+
+
+### Bug Fixes
+
+* checked the Configure standard kernel features ([ce57f67](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/ce57f676b8f5ef5109d942912cbed5e6fa0af171))
+
 ## [1.0.2](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.0.1...v1.0.2) (2026-04-30)
 
 
