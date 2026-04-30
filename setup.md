@@ -42,7 +42,11 @@ make -j 4
 6. perform this on the terminal
 ```bash
 cd ..
+
+// make a filesystem
 mkdir -p rootfs/{bin,sbin,etc,proc,sys,dev,usr/bin,usr/sbin}
+
+// copy busybox binary into your rootfs /usr/bin
 cd rootfs
 which busybox
 /usr/bin/busybox
