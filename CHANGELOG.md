@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.0.3...v1.1.0) (2026-04-30)
+
+
+### Features
+
+* added iso compilation manual ([57d987a](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/57d987a021b3e46ed8d475eae5ed5f9e35d8e308))
+
 ## [1.0.3](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.0.2...v1.0.3) (2026-04-30)
 
 
