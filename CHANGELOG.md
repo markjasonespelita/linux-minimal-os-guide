@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.1.0...v1.1.1) (2026-04-30)
+
+
+### Bug Fixes
+
+* fix explanation ([79f7258](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/79f72588f8596300c1c6543b9559f651d6be4b32))
+
 # [1.1.0](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.0.3...v1.1.0) (2026-04-30)
 
 
