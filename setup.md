@@ -1,4 +1,5 @@
 Setup Minimal Linux Operating System Distribution
+
 Created by: Mark Jason Espelita
 
 NOTE: this is my personal notes based from multiple sources I studied - Youtube, github /torvalds/linux.git, and other sources. :)
