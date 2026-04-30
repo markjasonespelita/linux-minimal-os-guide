@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.1.1...v1.2.0) (2026-04-30)
+
+
+### Features
+
+* added make menuconfig on the setup.md ([7ebfa3e](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/7ebfa3e1cc9b596ed9ef9cbf095a33d26086aba0))
+
 ## [1.1.1](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.1.0...v1.1.1) (2026-04-30)
 
 
