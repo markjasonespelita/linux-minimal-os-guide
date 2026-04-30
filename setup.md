@@ -91,3 +91,29 @@ find . | cpio -o -H newc | gzip > ../initramfs.cpio.gz
 cd ../
 sudo qemu-system-x86_64 --enable-kvm -kernel linux/arch/x86/boot/bzImage initrd initramfs.cpio.gz
 ```
+
+## Building the iso
+
+```bash
+// install required packages
+sudo apt install grub-pc-bin grub-common xorriso dosfstools mtools
+
+// make a bootloader directory
+mkdir -p iso/boot/grub
+
+cp linux/arch/x86/boot/bzImage iso/boot/vmlinuz
+cp initramfs.cpio.gz iso/boot/initramfs
+
+vim iso/boot/grub/grub.cfg
+
+set timeout=0
+set default=0
+
+menuentry "Zyphor Minimal OS" {
+    linux /boot/vmlinuz console=ttyS0
+    initrd /boot/initramfs
+}
+
+// build the iso
+grub-mkrescue -o minimal-os.iso iso
+```
