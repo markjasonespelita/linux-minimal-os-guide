@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.2.1...v1.3.0) (2026-05-01)
+
+
+### Features
+
+* Refactor kernel configuration instructions in setup.md ([62531d4](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/62531d443b6b42d4a16d2b6b2f3282e349479b9f))
+
 ## [1.2.1](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.2.0...v1.2.1) (2026-05-01)
 
 
