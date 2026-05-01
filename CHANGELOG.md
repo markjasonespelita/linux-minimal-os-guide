@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.2.0...v1.2.1) (2026-05-01)
+
+
+### Bug Fixes
+
+* fix typos and added --depth=1 on the git clone in linux kernel ([23f70a3](https://github.com/markjasonespelita/linux-minimal-os-guide/commit/23f70a3b2c7abf631ac521e1aba3358de109afd0))
+
 # [1.2.0](https://github.com/markjasonespelita/linux-minimal-os-guide/compare/v1.1.1...v1.2.0) (2026-04-30)
 
 
