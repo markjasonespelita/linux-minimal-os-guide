@@ -13,7 +13,7 @@ sudo apt install build-essential bc bison flex libssl-dev libelf-dev dwarves pkg
 
 2. clone the linux source code
 ```bash
-git clone https://github.com/torvalds/linux.git
+git clone --depth=1 https://github.com/torvalds/linux.git
 ```
 
 3. perform this on terminal
@@ -92,7 +92,7 @@ find . | cpio -o -H newc | gzip > ../initramfs.cpio.gz
 ```bash
 // go to the project root
 cd ../
-sudo qemu-system-x86_64 --enable-kvm -kernel linux/arch/x86/boot/bzImage initrd initramfs.cpio.gz
+sudo qemu-system-x86_64 --enable-kvm -kernel linux/arch/x86/boot/bzImage -initrd initramfs.cpio.gz -m 2048
 ```
 
 ## Building the iso
