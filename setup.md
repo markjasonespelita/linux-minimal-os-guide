@@ -27,13 +27,22 @@ make menuconfig
 
 4. configure the kernel
 ```bash
-[*] 64-bit kernel
-general setup - [*] initial ram filesystem
-general setup - initial ram filesystem - [*] support gzip
-general setup - [*] configure standard kernel features
-general setup - configure standard kernel features - [*] Enable support for printk
-device drivers - character devices - [*] enable tty
-executable file formats - [*] kernel support for ELF binaries
+Kernel Configuration (Minimal for Initramfs)
+
+General Setup:
+  [*] 64-bit kernel
+  [*] Initial RAM filesystem and RAM disk (initramfs/initrd) support
+  [*] Support initial ramdisk compressed using gzip
+  [*] Configure standard kernel features
+      [*] Enable support for printk
+
+Device Drivers:
+  Character devices:
+      [*] Enable TTY
+
+Executable File Formats:
+  [*] Kernel support for ELF binaries
+  [*] Kernel support for scripts starting with #!
 ```
 
 5. build the kernel image
